@@ -1,0 +1,148 @@
+.container .aside.info .m ul .rate{
+	padding-bottom:20px;
+}
+.container .section{
+	float:right;
+	width:880px;
+	min-height:600px;
+	background:url(../img/text-bg.png) repeat 0 0 ;
+}
+.hour{
+	top:397px;
+	right:113px;
+	width:154px;
+	height:26px;
+	line-height:20px;
+	background:url(../img/top-bt.png) no-repeat  -260px -260px;
+}
+.mainpage-top{
+	border-radius:10px;
+	border:0px solid #454545;
+}
+.mainpage-ks{
+	width:399px;
+	height:56px;
+	font-size:22px;
+	background:url(../img/top-bt.png) repeat scroll 0 -205px;
+}
+.check{
+	color: #333333;
+	line-height:3em;
+	margin:0 0 0 30px;
+}
+.main{
+	float:right;
+	margin:27px 27px 0 0;
+}
+.mainpage-ks select{
+	width:134px;
+	border:0;
+	font-size:14px;
+	font-family:inherit;
+
+}
+.subject{
+	padding-top:32px;
+	padding-bottom:33px;
+	font-size:16px;
+}
+
+.part .list{
+	margin-bottom:10px;
+	position:relative;
+}
+.part .list .cont{
+	float:left;
+	width:765px;
+}
+.wrong{
+	width:28px;
+	height:25px;
+	float:left;
+}
+
+.titled{
+	margin-right:10px;
+	float:left;
+}
+
+.judge{
+	position:absolute;
+	width:28px;
+	height:25px;
+	background:url(../img/top-bt.png) repeat scroll -290px 0px;
+	left:0;
+	top:0;
+}
+.mainp{
+	border:2px solid #66CCFF;
+	background-color:#66CCFF;
+	height:20px;
+	border-radius:5px;
+	color:#000000;
+	font-size:16px;
+}
+
+.writ{
+	margin-bottom:5px;
+	font-size:16px;
+	line-height:27px;
+}
+.answer ul li{
+	margin:10px 0 17px 60px;
+	font-size:16px;
+	float:left;
+	width:37%;
+	color:#0000;
+	font-weight: bold;
+}
+
+
+.answersize{
+	margin:0 0 0 25px;
+	font-size:16px;
+	color:#000000;
+}
+
+.answer-xz{
+	float:left;
+	width:790px;
+	}
+.answer-xz1{
+	width:276px;
+	height:42px;
+	margin:0 0 10px 20px;
+	width:40%;
+	float:left;
+	background:url(../img/top-bt.png) repeat scroll 0px -119px;
+}
+.zqanswer{
+	margin:0 0 0 20px;
+	font-size:16px;
+	color:#FFFFFF;
+	line-height:45px;
+}
+
+.answer-xz2{
+	width:274px;
+	height:43px;
+	width:36%;
+	float:left;
+	background:url(../img/top-bt.png) repeat scroll 0px -162px;
+}
+
+.zjanswer{
+	margin:0 0 0 20px;
+	font-size:16px;
+	color:#FFFFFF;
+	line-height:45px;
+	
+}
+.detail_check_em{
+	float:left;
+	padding:0 10px 0 0;
+}
+.detail_content{
+	float:left;
+	width:250px;
+}

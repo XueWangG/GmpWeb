@@ -1,0 +1,205 @@
+.odd,.even{
+	height:125px;
+	width:810px;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	position:relative;
+	margin:35px 0 0 8px;
+	background:#fff;	
+	background:rgba(255,255,255,0.5);
+}
+.list > div{
+	float:left;
+}
+.list{
+	box-shadow:-2px 1px 2px rgba(0,0,0,.1);
+}
+.list .ornament{
+	position:absolute;
+	display:block;
+	width:19px;
+	height:43px;
+	background:url(../img/top-bt.png) no-repeat scroll 0 0 ;
+	top:-25px;
+	left:55px;
+}
+.odd .ornament{
+	background-position: -329px -69px;
+}
+.even .ornament{
+	background-position: -349px -69px;
+}
+.list .bevel{
+	position:absolute;
+	display:block;
+	width:52px;
+	height:126px;
+	background:url(../img/top-bt.png) no-repeat scroll 0 0 ;
+	top:0;
+	right:-52px;
+}
+.odd .bevel{
+	background-position:0 -502px;
+}
+.even .bevel{
+	background-position:-52px -502px;
+}
+.list .number{
+	width:48px;
+	height:39px;
+	background:url(../img/top-bt.png) no-repeat scroll -368px -152px;
+	font-size:18px;
+	color:white;
+	padding:12px 0 0 3px;
+	text-align:center;
+	position:absolute;
+	top:17px;
+	left:8px;
+}
+
+.list .period{
+	width:352px;
+	height:39px;
+	font-size:14px;
+	color:black;
+	padding:12px 0 0 3px;
+	text-align:left;
+	position:absolute;
+	top:90px;
+	left:36px;
+}
+
+
+.list .title{
+	width:352px;
+	height:40px;
+	background:url(../img/top-bt.png) no-repeat scroll 0 -317px;
+	font-size:18px;
+	color:white;
+	margin:30px 0 0 35px;
+	padding:23px 0 0 32px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+ .list .train_title{
+    width:352px;
+	height:40px;
+	background:url(../img/training.png) no-repeat scroll;
+	font-size:18px;
+	color:white;
+	margin:30px 0 0 35px;
+	padding:23px 0 0 32px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+    }
+.list .train_doc_title{
+        width:760px;
+	height:40px;
+	background:url(../img/document-title.png) no-repeat scroll;
+	font-size:18px;
+	color:white;
+	margin:30px 0 0 35px;
+	padding:23px 0 0 32px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+    }
+.list .doc_title{
+         width:352px;
+	height:40px;
+	background:url(../img/document.png) no-repeat scroll;
+	font-size:18px;
+	color:white;
+	margin:30px 0 0 35px;
+	padding:23px 0 0 32px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+    }
+.list .info{
+	margin:15px 10px 0 30px;
+}
+.list .info div{
+	background:url(../img/top-bt.png) no-repeat scroll 0 0;
+}
+.list .info div{
+	background:url(../img/top-bt.png) no-repeat scroll 0 0;
+}
+.list .info .point{
+	background-position:0 -380px;
+	width:200px;
+	height:47px;
+}
+.list .info .point .point-title{
+	float:left;
+	color:white;
+	width:40px;
+	height:40px;
+	font-size:18px;
+	line-height:20px;
+	margin:2px 0 0 7px;
+}
+.list .info .point .point-cont{
+	float:right;
+	margin:12px 10px 0 0;
+	height:28px;
+	line-height:28px;
+	position:relative;
+}
+.list .info .point .point-cont span,.list .info .date .date-cont span{
+	font-size:14px;
+	font-weight:700;
+	color:#000;
+	padding:0 5px
+}
+.list .info .point .point-cont em{
+	font-size:24px;
+	color:#000;
+	line-height:50px;
+	position:absolute;
+	top:-12px;
+	right:35px;
+}
+.list .info .date{
+	background-position:-200px -380px;
+	width:207px;
+	height:47px;
+}
+.list .info .date .date-title{
+	float:right;
+	color:white;
+	width:40px;
+	height:40px;
+	font-size:18px;
+	line-height:20px;
+	margin:2px 3px 0 0;
+
+}
+.list .info .date  .date-cont{
+	margin:7px 0 0 10px;
+	height:28px;
+	line-height:28px;
+	color:black;
+}
+.list .info .date .date-cont{
+	float:left;
+}
+.list .action a{
+	margin:30px 0 0 18px;
+	background:url(../img/top-bt.png) no-repeat scroll 0 0;
+	display:block;
+	width:125px;
+	height:73px;
+	text-align:center;
+	line-height:73px;
+	color:white;
+	font-size:24px;
+}
+.list .action .view-detail,.list .action .begin{
+	background-position:0 -428px;
+}
+.list .action .continue{
+	background-position:-126px -428px;
+}

@@ -1,0 +1,92 @@
+body{
+	background-color:#f0f0f0;
+}
+.wrapper{
+	height:188px;
+	background-color:#346d86;
+	top:50%;
+	margin-top:-95px;
+	position:absolute;
+	width:100%;
+}
+.container{
+	position:relative;
+	width:660px;
+}
+.container h1{
+	position:absolute;
+	top:-55px;
+	left:0;
+	z-index:2;
+}
+.form-wrap{
+	height:250px;
+	padding:0 20px;
+	color:#333;
+	float:right;
+	margin-top:-50px;
+	background-color:#f0f0f0;
+	position:relative;
+	width:350px;
+}
+.form-wrap-before,.form-wrap-after{
+	width:20px;
+	height:188px;
+	content:"";
+	display:block;
+	position:absolute;
+	background:url(../img/form-bg.png) no-repeat scroll 0 -1px;
+	top:50px;
+}
+.form-wrap-before{
+	left:0;
+}
+.form-wrap-after{
+	background-position:-20px -1px;
+	right:-1px;
+}
+.form-wrap h2{
+	width:210px;
+	margin:0 auto;
+	background:url(../img/login-title.png) no-repeat scroll center 0;
+	border-bottom:2px solid #333;
+	height:45px;
+	line-height:99em;
+	overflow:hidden;
+}
+.form-wrap div{
+	margin:8px auto 0;
+	width:200px;
+	padding:0 75px;
+}
+.form-wrap div label{
+	display:block;
+}
+.form-wrap div input{
+	width:180px;
+	padding:0 10px;
+	height:22px;
+	line-height:22px;
+}
+.form-wrap div button{
+	width:92px;
+	height:26px;
+	background:url(../img/login-bt.png) no-repeat 0 0;
+	border:0;
+	margin:0 3px;
+}
+.edition{
+	text-align:center;
+	position:absolute;
+	bottom:-170px;
+	right:-128px;
+	width:100%;
+}
+.edition p{
+	color:#d20101;
+	line-height:2;
+}
+.edition a{
+	color:#346d86;
+	margin-left:20px;
+}

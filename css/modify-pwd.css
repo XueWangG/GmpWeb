@@ -1,0 +1,56 @@
+.modify-pwd{
+	margin:200px 0 0 125px;
+	padding:30px;
+	border-radius:10px;
+	border:2px solid #454545;
+	background-color:white;
+	width:420px;
+	position:relative;
+}
+.modify-pwd .data div{
+	margin:30px 0;
+}
+.modify-pwd .data div label{
+	font-size:24px;
+	color:#346d86;
+	display:inline-block;
+	width:110px;
+}
+.modify-pwd .data div input[type="password"]{
+	width:280px;
+	padding:0 10px;
+	height:33px;
+	line-height:33px;
+	border:2px solid #346d86;
+	background-color:#daf4ff;
+	border-radius:10px;
+}
+.modify-pwd .data .confirm-bt{
+	margin: 0 0 -62px;
+    padding-right: 30px;
+    text-align: right;
+}
+.modify-pwd .data .confirm-bt input{
+	width:127px;
+	height:127px;
+	border:0;
+	background:url(../img/top-bt.png) no-repeat  -293px -440px;
+	text-indent:-99em;
+	overflow:hidden;
+}
+.title{
+	position:absolute;
+	top:29px;
+	right:-125px;
+	width:124px;
+	height:52px;
+	background:url(../img/top-bt.png) no-repeat scroll 0 -67px;
+}
+.title h1{
+	line-height:52px;
+	text-align:center;
+	color:#9bd4ed;
+	font-size:24px;
+	font-weight:400;
+	text-shadow: 0 1px 2px #000000;
+}

@@ -1,0 +1,584 @@
+﻿HTML{
+	overflow-x:hidden;
+}
+/**头部css开始**/
+.test_header{
+	text-align:left,center;
+	background-image:url("../img/headback.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	width:100%;
+	height:72px;
+	position:absolute;
+	top:0px;
+	 filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/headback.png', sizingMethod='scale');
+}
+
+.test_header_logo{
+	margin-top:7px;
+}
+
+.test_start{
+	float:right;
+	height:42px;
+	margin-right:1%;
+	position:absolute;
+	top:29px;
+	right:0px;
+}
+
+.test_head_table{
+	border:0;
+	width:100%;
+	height:40px;
+	margin-right:1%;
+}
+
+.Width60{
+	width:60%;
+}
+
+.Width8{
+	width:8%;
+}
+
+.Width50{
+	width:50%;
+}
+
+.Width40{
+	width:40%;
+}
+
+.test_lable_name{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#3476c7;
+	text-align:center;
+	background-color:#ffffff;
+	border:1px solid #bababa;
+	padding:6px 20px 6px 20px;
+	border-radius:5px;
+}
+
+.test_lable{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#3476c7;
+	text-align:center;
+	background: -webkit-linear-gradient(top,#fbfbfb,#ececec);
+	background: -webkit-gradient(linear,top, bottom, from(#fbfbfb), to(#ececec));
+	background: -moz-linear-gradient(top, #fbfbfb, #ececec);
+	background: -ms-linear-gradient(top, #fbfbfb, #ececec);
+	background: linear-gradient(top, #fbfbfb, #ececec);
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#fbfbfb,endColorStr=#ececec);
+	background-color:#ececec;
+	border:1px solid #bababa;
+	padding:6px 20px 6px 20px;
+	border-radius:5px;
+}
+
+.test_lable a{
+	font-weight:normal;
+}
+/**头部css结束**/
+
+/**菜单css开始**/
+.test_menu1{
+	position:absolute;
+	left:20px;
+	top:80px;
+	width:100%;
+}
+.test_menu1 ul{
+	margin:0px;
+}
+
+.test_menu1 ul li{
+	display:inline;
+}
+.test_menu_label{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#3476c7;
+	width:215px;
+	height:40px;
+	text-align:center;
+	background: -webkit-linear-gradient(top,#fbfbfb,#ececec);
+	background: -webkit-gradient(linear,top, bottom, from(#fbfbfb), to(#ececec));
+	background: -moz-linear-gradient(top, #fbfbfb, #ececec);
+	background: -ms-linear-gradient(top, #fbfbfb, #ececec);
+	background: linear-gradient(top, #fbfbfb, #ececec);
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#fbfbfb,endColorStr=#ececec);
+	background-color:#ececec;
+	border:1px solid #bababa;
+	
+}
+
+.test_menu_label2{
+	font-family:"微软雅黑";
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	width:215px;
+	height:40px;
+	text-align:center;
+	background-color:#ffffff;
+	border:1px solid #bababa;
+}
+
+.test_menu_timer{
+	float:right;
+	position:absolute;
+	right:0px;
+	top:5px;
+}
+/**菜单css结束**/
+
+/**导航css开始**/
+.test_nav{
+	max-width:200px;
+	background-color:#f3f3f3;
+	border:1px solid #bababa;
+	position:absolute;
+	left:20px;
+	top:135px;
+}
+
+.test_nav_question{
+	max-width:180px;
+	margin-left:20px;
+	margin-right:20px;
+	padding-bottom:40px;
+}
+
+.test_nav_question h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+
+.test_nav_yilan{
+	font-size:18px;
+	color:#373738;
+}
+
+.test_nav_detail{
+	font-size:18px;
+	font-weight:normal;
+	color:#373738;
+}
+
+.test_nav_question ul,li{
+	list-style:none outside none;
+	margin:8px 0 0 0;
+}
+
+.test_nav_question input[type="submit"]{
+	width:150px;
+}
+
+.test_nav_badge1{
+	display:inline-block;
+	background-color:#ffffff;
+	border-radius:5px 5px 5px 5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:black;
+	font-weight:normal;
+}
+
+.test_nav_badge2{
+	display:inline-block;
+	background-color:#ffffff;
+	border-radius:5px 5px 5px 5px;
+	padding-left:6px;
+	padding-right:6px;
+	color:black;
+	font-weight:normal;
+}
+
+.test_nav_badgeimportant{
+	background-color:#ffffff;
+	color:red;
+}
+
+.test_nav_badgesuccess{
+	background-color:#bcd7ff
+}
+
+.test_nav_button{
+	border:1px solid #bababa;
+	border-radius:5px 5px 5px 5px;
+	background: -webkit-linear-gradient(top,#f0f0f0,#d8d8d8);
+	background: -webkit-gradient(linear,top, bottom, from(#f0f0f0), to(#d8d8d8));
+	background: -moz-linear-gradient(top, #f0f0f0, #d8d8d8);
+	background: -ms-linear-gradient(top, #f0f0f0, #d8d8d8);
+	background: linear-gradient(top, #f0f0f0, #d8d8d8);
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#f0f0f0,endColorStr=#d8d8d8);
+	background-color:#f0f0f0;
+	height:40px;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#373738;
+}
+/**导航css结束**/
+
+/**考题css开始**/
+.test_content{
+	width:80%;
+	position:absolute;
+	left:230px;
+	top:135px;
+}
+
+.test_content_lable{
+	display:inline-block;
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	font-weight:bold;
+	margin-left:10px;
+}
+
+.test_content_lable_info{
+	border:1px solid #bababa;
+	background-color:#bcd7ff;
+	padding:5px 3px 5px 3px;
+	font-size:16px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	line-height: 14px;
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+	color:#373738;
+}
+
+.test_content_ques{
+	width:100%;
+	margin-top:10px;
+	border:1px solid #bababa;
+}
+
+.test_content_detail .row .span12 .row .span1{
+	width:80px;
+}
+
+.test_content_table{
+	border:0;
+	width:100%;
+}
+
+.test_content_detail{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.test_content_select{
+	background-color:#e5f0ff;
+	border-radius:5px 5px 5px 5px;
+	padding:10px 10px 10px 10px;
+	width:46%;
+}
+
+.test_view_select{
+	background-color:#ffffff;
+	border-radius:5px 5px 5px 5px;
+	padding:10px 10px 10px 10px;
+	width:50%;
+}
+
+.abcd{
+	font-family:"微软雅黑";
+	font-size:16px;
+	width:5px;
+	color:#000000;
+	margin-left:3px;
+}
+
+.test_content_answer{
+	margin-left:40px;
+	margin-top:-20px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#000000;
+}
+
+.pagination-centered ul li a{
+	color:#3476c7;
+}
+
+.control-group{
+	margin-top:20px;
+}
+
+.test_content_select input[type="radio"]{
+	margin:-4px 0 0 ;
+}
+
+.test_content_select input[type="checkbox"]{
+	margin:-4px 0 0 ;
+}
+
+.test_content_detail form .row .span12 .row .span1 input[type="radio"]{
+	margin:-4px 0 0 ;
+}
+
+.test_content_detail form .row .span12 .row .span1 input[type="checkbox"]{
+	margin:-4px 0 0 ;
+}
+
+.selectform{
+	height:0px;
+}
+.test_content_pageturn{
+	text-align:center;
+}
+
+.test_content_detail form .row .span12{
+	width:100%;
+}
+
+.test_content_detail form .row .span12 .row .span8{
+	width:82%
+}
+
+.test_content_ques form .hright .control-group{
+	margin-top:0px;
+}
+
+.test_content_detail_name{
+	font-family:"微软雅黑";
+	font-size:18px;
+	font-weight:bold;
+	color:#373738;
+}
+
+.test_content_detail_topic{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#373738;
+}
+/**考题css结束**/
+
+/**考试选择一览css开始**/
+
+.none_test_div{
+	float:left;
+	text-align:center;
+	margin-top:220px;
+	width:70%;
+}
+
+.none_test{
+	text-align:center;
+	margin:0 150px;
+	font-family:"微软雅黑";
+	font-size:20px;
+	color:#000000;
+	width:360px;
+	background-color:#bcd7ff;
+	padding:20px 120px;
+}
+
+.test_select_div{
+	position:absolute;
+	left:20px;
+	top:135px;
+	width:100%;
+}
+
+.test_select_table{
+	border:1px solid #bdbdbd;
+	width:97%;
+	text-align:center;
+	font-size:16px;
+	font-family:"微软雅黑";
+	border-collapse:collapse;
+    border-spacing:0;
+}
+
+.pagination a,a:visited{
+	font-weight:normal;
+}
+
+.test_select_tr{
+	background: -webkit-linear-gradient(top,#fbfbfb,#ececec);
+	background: -webkit-gradient(linear,top, bottom, from(#fbfbfb), to(#ececec));
+	background: -moz-linear-gradient(top, #fbfbfb, #ececec);
+	background: -ms-linear-gradient(top, #fbfbfb, #ececec);
+	background: linear-gradient(top, #fbfbfb, #ececec);
+	filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#fbfbfb,endColorStr=#ececec);
+	background-color:#ececec;
+}
+
+.test_select_th{
+	width:25%;
+	border:1px solid #bdbdbd;
+	border-collapse:collapse;
+    border-spacing:0;
+    padding-top:7px;
+    padding-bottom:7px;
+    font-weight:normal;
+}
+
+.test_select_td{
+	width:25%;
+	border:1px solid #bdbdbd;
+	border-collapse:collapse;
+    border-spacing:0;
+    padding-top:10px;
+    padding-bottom:10px;
+   
+}
+
+.test_select_status1{
+	text-align:center;
+	padding:5px 15px 5px 15px;
+	width:100px;
+	background-color:#eaf2ff;
+	font-size:16px;
+	font-family:"微软雅黑";
+	color:#3476c7;
+	font-weight:normal;
+}
+
+.test_select_status2{
+	text-align:center;
+	padding:5px 15px 5px 15px;
+	width:100px;
+	background-color:#fff4ea;
+	font-size:16px;
+	font-family:"微软雅黑";
+	color:#c75a34;
+	font-weight:normal;
+}
+
+/**考试选择一览css结束**/
+
+/**考试履历css开始**/
+.test_view_thno{
+	width:4%;
+	border:1px solid #bdbdbd;
+	border-collapse:collapse;
+    border-spacing:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:normal;
+    color:#3476c7;
+}
+
+.test_view_thother{
+	width:20%;
+	border:1px solid #bdbdbd;
+	border-collapse:collapse;
+    border-spacing:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:normal;
+}
+
+.test_view_operate{
+	text-align:center;
+	padding:5px 30px 5px 30px;
+	width:100px;
+	background-color:#bcd7ff;
+	font-size:16px;
+	font-family:"微软雅黑";
+	color:#000000;
+	font-weight:normal;
+}
+/**考试履历css结束**/
+
+/**考试履历详细css开始**/
+.test_view_detail_div{
+	position:absolute;
+	left:20px;
+	top:135px;
+	width:97%;
+}
+
+.test_view_detail_table{
+	width:100%;
+	border:1px solid #bdbdbd;
+	text-align:left;
+	font-size:16px;
+	font-family:"微软雅黑";
+	border-collapse:collapse;
+    border-spacing:0;
+    background-color:#ffffff;
+}
+
+.test_view_detail_td{
+	width:50%;
+	border:1px solid #bdbdbd;
+	border-collapse:collapse;
+    border-spacing:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+}
+
+.test_view_detail_rightanswer{
+	padding:3px 7px;
+	background-color:#bcd7FF;
+	border-radius:5px;
+}
+
+.test_view_detail_youranswer{
+	padding:3px 7px;
+	background-color:#d0d0d0;
+	border-radius:5px;
+}
+
+.span1 img{
+	vertical-align:top;
+}
+/**考试履历详细css结束**/
+
+/**考生修改密码css开始**/
+.test_password{
+	position:absolute;
+	top:170px;
+	width:100%;
+}
+
+.test_modifypw{
+	margin:0 auto;
+	width:365px;
+	background-color:#bcd7ff;
+	border:1px solid #bababa;
+}
+
+.test_modifypw ul{
+	margin:30px 20px 30px 40px;
+	width:265px;
+}
+
+.test_pwtext{
+	font-family:"微软雅黑";
+	font-size:16px;
+}
+
+.test_modifypw INPUT[type="password"]{
+	width:100%;
+	height:30px;
+	border-radius:10px;
+}
+
+.test_modifypw INPUT[type="submit"]{
+	width:275px;
+	background-color:#3476c7;
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:#ffffff;
+	border:0;
+	text-align:center;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+/**考生修改密码css结束**/
